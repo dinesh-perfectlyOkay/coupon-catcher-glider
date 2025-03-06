@@ -8,7 +8,7 @@ import { LoadingState } from '@/components/LoadingState';
 import { EmptyState } from '@/components/EmptyState';
 import { fetchStores, fetchOffers, getCurrentDomain } from '@/utils/api';
 import { Store, Coupon } from '@/types';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { RefreshCw, Tag, Store as StoreIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';

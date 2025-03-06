@@ -1,9 +1,8 @@
-
 import { Coupon } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Copy, Check } from 'lucide-react';
 import { useState } from 'react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 interface CouponCardProps {
   coupon: Coupon;
